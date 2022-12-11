@@ -1,4 +1,4 @@
-# AdvancedNodeStarter [![Build Status](https://travis-ci.org/StephenGrider/AdvancedNodeStarter.svg?branch=master)](https://travis-ci.org/StephenGrider/AdvancedNodeStarter)
+# AdvancedNodeApp 🚀
 
 ## Description 📝
 
@@ -8,6 +8,9 @@
 ## Installation 📦
 
 ```bash
+# in the root directory (backend)
+$ npm install
+# in the client directory (frontend)
 $ npm install
 ```
 
