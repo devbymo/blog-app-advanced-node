@@ -48,3 +48,17 @@ module.exports = (app) => {
 //       "MaxAgeSeconds": 3000
 //   }
 // ]
+
+// S3 buckt policy
+// {
+//     "Version": "2012-10-17",
+//     "Statement": [
+//         {
+//             "Sid": "PublicReadGetObject",
+//             "Effect": "Allow",
+//             "Principal": "*",
+//             "Action": "s3:GetObject",
+//             "Resource": "s3-bucket-arn/*"
+//         }
+//     ]
+// }
